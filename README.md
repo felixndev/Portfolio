@@ -5,8 +5,8 @@ This website is a Web Front-end project I decided to build to show the projects 
 Este site é um projeto Web Front-end que decidi construir para mostrar os projetos que desenvolvi ao longo da minha carreira, sejam eles individuais ou não. Ele é destinado a pessoas que se interessam pelo que eu faço e querem ver minha experiência no passado. Este também foi o primeiro projeto que trabalhei com Sass.
 
 # :globe_with_meridians: Pages
-- Português BR - https://felixndev.github.io/Portfolio/dist/lang/pt/index.html
-- English - https://felixndev.github.io/Portfolio/dist/lang/en/index.html
+- Português BR - https://felixndev.github.io/Portfolio/dist/lang/pt/
+- English - https://felixndev.github.io/Portfolio/dist/lang/en/
 
 # :computer: Features
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
