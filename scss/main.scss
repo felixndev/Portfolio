@@ -114,10 +114,12 @@ header{
                 background: linear-gradient(121deg, rgba(170,165,255,1) 0%, rgba(0,212,255,1) 100%);
                 width: 70px;
                 position: relative;
+                @include totalCenter();
                 padding: 8px;
                 margin-top: -8px;
                 cursor: pointer;
                 border-radius: 16px;
+
 
                 &:hover::before{
                     content: '';
@@ -196,6 +198,7 @@ header{
     cursor: pointer;
     left: 20px;
     transition: 0.3s;
+    @include totalCenter();
     font-size: 18px;
     z-index: 10;
     width: 30px;
@@ -384,6 +387,11 @@ header{
                 display: flex;
                 justify-content: space-between;
                 bottom: 5px;
+                
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
 
                 span{
                     font-size: 20px;
@@ -534,6 +542,7 @@ footer{
         
         a{
             color: $theme !important;
+            text-decoration: none;
         }
     }
 }
@@ -571,6 +580,8 @@ footer{
 
         .mail{
             margin: 20px auto;
+
+        
         }
     }
 

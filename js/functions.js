@@ -54,7 +54,7 @@ $(document).on('mouseup',function(e){
 
 $('.toggle-dark').on('click', function(){
     document.body.classList.toggle('dark');
-    $('.toggle-dark i').toggleClass('fa-sun');
+    $('.toggle-dark i').toggleClass('fxi-lightbulb-on');
     $(this).toggleClass('active')
    
 })

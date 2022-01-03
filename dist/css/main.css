@@ -100,6 +100,15 @@ header .navigation ul .lang-dropdown .button {
   background: linear-gradient(121deg, #aaa5ff 0%, #00d4ff 100%);
   width: 70px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px;
   margin-top: -8px;
   cursor: pointer;
@@ -174,6 +183,15 @@ header .navigation ul a:hover {
   left: 20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 18px;
   z-index: 10;
   width: 30px;
@@ -393,6 +411,11 @@ header .navigation ul a:hover {
   bottom: 5px;
 }
 
+.projects .container .fade-bg .preview a {
+  text-decoration: none;
+  color: white;
+}
+
 .projects .container .fade-bg .preview span {
   font-size: 20px;
   cursor: pointer;
@@ -576,6 +599,7 @@ footer ul li {
 
 footer ul a {
   color: #668cff !important;
+  text-decoration: none;
 }
 
 .st0 {
