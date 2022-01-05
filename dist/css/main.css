@@ -35,14 +35,6 @@ a {
   color: white;
 }
 
-.iconi {
-  background: url("../../images/icon_Prancheta 1.svg");
-  height: 18px;
-  width: 18px;
-  display: block;
-  /* Other styles here */
-}
-
 .center {
   max-width: 1280px;
   width: 95%;

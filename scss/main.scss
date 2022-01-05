@@ -56,15 +56,6 @@ $theme: #668cff;
 
 }
 
-.iconi {
-    background: url("../../images/icon_Prancheta 1.svg");
-    height: 18px;
-    width: 18px;
-    display: block;
-    /* Other styles here */
-  }
-
-
 .center{
     max-width: 1280px;
     width: 95%;
@@ -238,6 +229,8 @@ header{
         background: rgba($color: white, $alpha: 0.3);
     }
 }
+
+
 
 .intro{
     margin-top: 140px;
@@ -567,6 +560,7 @@ footer{
     }
 
     .intro{
+       
        
 
         .head{
