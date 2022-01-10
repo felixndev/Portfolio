@@ -168,6 +168,40 @@ header .navigation ul a:hover {
   color: white;
 }
 
+.slick-prev {
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+  background: white;
+  border: none;
+  color: #668cff;
+}
+
+.slick-next {
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  border: none;
+  font-size: 40px;
+  color: #668cff;
+}
+
 .toggle-dark {
   position: fixed;
   bottom: 10px;
@@ -379,7 +413,7 @@ header .navigation ul a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .projects .container .fade-bg span {
@@ -406,16 +440,14 @@ header .navigation ul a:hover {
 .projects .container .fade-bg .preview a {
   text-decoration: none;
   color: white;
-}
-
-.projects .container .fade-bg .preview span {
   font-size: 20px;
-  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.projects .container .fade-bg .preview span:hover {
+.projects .container .fade-bg .preview a:hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
 }
@@ -639,8 +671,8 @@ footer ul a {
   }
   .projects .container {
     margin: 0 auto;
-    width: 250px;
-    height: 250px;
+    width: 60vw;
+    height: 60vw;
   }
   .services h1 {
     text-align: center;
@@ -653,6 +685,7 @@ footer ul a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0 auto;
   }
   footer .center {
     -webkit-box-orient: vertical;

@@ -1,13 +1,16 @@
 
 
- if($(window).width() < 610){
+ if($(window).width() < 800){
 
     $('.projects-grid').slick({
         centerMode: false,
         slidesToShow:1,
         autoplay:false,
-        arrows:false,
-        infinite:false,
+        arrows:true,
+        infinite:false, 
+        prevArrow: '<button class="slick-prev" type="button"><i class="fxi-chevron-left"></i></button>',
+        nextArrow: '<button class="slick-next" type="button"><i class="fxi-chevron-right"></i></button>',
+
        
     })
 
