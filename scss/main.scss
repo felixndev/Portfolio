@@ -46,6 +46,8 @@ $theme: #668cff;
             }
         }
 
+     
+
         
     }
 
@@ -189,8 +191,10 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    background: white;
     border: none;
+    background: transparent;
+    transition: 0.3s;
+    background: transparent;
     color: $theme;
 
 }
@@ -200,8 +204,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    transition: 0.3s;
     border: none;
+    background: transparent;
     font-size: 40px;
     color: $theme;
 

@@ -62,7 +62,7 @@ $('.toggle-dark').on('click', function(){
    
 })
 
-var myIcons = document.getElementsByClassName('.rectang')
+
    
     
 
